@@ -1,0 +1,73 @@
+
+body{
+    background-color: gray;
+}
+
+.background{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    width: auto;
+    font-size: 20px;
+}
+.half-width{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 75%;
+}
+.center {
+    display: block;
+    margin-left: 50%;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  /* new style hover  */
+
+  .hover-img img{
+      transition: 2s;
+
+}
+
+ .hover-img{
+        height: 150px;
+        width: 300px;
+        float: left;
+ }
+
+ .hover-img:hover img{
+
+    transform: scale(1.5);
+
+}
+.half{
+    width: 150%;
+    margin-left: 10px;
+    padding: 7%;
+    
+}
+/* diu img */
+
+.hover-st{
+    height: 150px;
+    width: 400px;
+    float: left;
+}
+
+.hover-st img{
+    transition: 3s;
+
+}
+.hover-st:hover img{
+
+    transform: scale(1.7);
+
+}

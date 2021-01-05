@@ -1,0 +1,98 @@
+body{
+    background-color: grey;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 15px;
+}
+#middle{
+    text-align: center;
+    color: orange;
+}
+
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half img{
+    width: 65%;
+}
+section{
+    height: 30%;
+    width: 100%;
+}
+
+.sijan{
+    background-image: url("img/exp-bg.png");
+    
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+section{
+    padding-bottom: 150px;
+}
+.button{
+    text-decoration: none;
+    background-color: chocolate;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(40deg, chocolate, orange);
+}
+.ratul{
+    background-image: url("img/dream-bg.png");
+    
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 400px;
+}
+
+.mukter{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.address {
+    display: block;
+    font-style: italic;
+  }
+
+
+  .new{
+    text-align: right;
+    
+  }
+  footer{
+      background-color: rgb(66, 62, 62);
+      text-align: center;
+      color: orangered;
+      font-size: 10px;
+  }
+.last{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    background-position: right;
+}
+
+
+/* Exta style */
+p:hover{
+    background-color: yellow;
+  }
+  a:hover {
+    color: red;
+  }
+
+  h1.st:hover, h1.st:active {font-size: 150%;}
